@@ -1,0 +1,30 @@
+/* App.css or a separate CSS file */
+.header-list {
+  display: flex; /* Flexbox layout */
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  color: aliceblue;
+}
+
+.header-list li {
+  margin-right: 20px; /* Adjust the margin between items */
+}
+
+nav {
+  background-color: rgb(3, 37, 65);
+}
+
+
+.header-list li a {
+  color: aliceblue;
+}
+
+.header-list li a:visited {
+  color: aliceblue;
+}
+
+.header-list li a {
+  color: white;
+  text-decoration: none;
+  border-bottom: none; /* 이 부분을 추가하여 밑줄 제거 */
+}
