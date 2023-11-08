@@ -1,6 +1,6 @@
 import Movies from "../components/Movie/Movie";
 import React from 'react';
-import { movies } from '../util/movieDummy';
+import { movies } from '../utils/movieDummy';
 import styled from "styled-components";
 
 export const Container = styled.div`
