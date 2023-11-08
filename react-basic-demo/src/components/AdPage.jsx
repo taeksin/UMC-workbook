@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Ad from '../Components/Ad';
+import Ad from '../components/Ad';
 
 
 function AdPage() {

@@ -1,5 +1,5 @@
 import React from 'react';
-import AdPage from '../Components/AdPage';
+import AdPage from '../components/AdPage';
 
 const Home = () => {
   return (

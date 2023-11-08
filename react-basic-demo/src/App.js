@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Movies from "./pages/Movies";
 import NotFound from "./pages/NotFound";
 import TV from "./pages/TV";
-import Header from "./Components/Header";
+import Header from "./components/Header";
 
 function App() {
   return (

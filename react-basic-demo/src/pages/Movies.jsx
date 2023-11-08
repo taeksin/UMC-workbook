@@ -1,4 +1,4 @@
-import Movies from "../Components/Movie/Movie";
+import Movies from "../components/Movie/Movie";
 import React from 'react';
 import { movies } from '../util/movieDummy';
 import styled from "styled-components";
