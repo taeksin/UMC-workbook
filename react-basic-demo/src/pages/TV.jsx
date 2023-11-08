@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const TV = () => {
-  return (
-    <div>
-      TV
-    </div>
-  )
-}
+  return <div>TV</div>;
+};
 
-export default TV
+export default TV;

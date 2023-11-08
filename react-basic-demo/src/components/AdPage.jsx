@@ -11,6 +11,7 @@ function AdPage() {
 
   return (
     <div>
+      AdPage       입니다
       {showAd && <Ad showAd={showAd} />}
       <button onClick={handleToggleClick} style={{ cursor: "pointer" }}>
         {showAd ? '광고 숨기기' : '광고 보이기'}

@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
 const Celebirity = () => {
-  return (
-    <div>
-      Celebirity
-    </div>
-  )
-}
+  return <div>Celebirity</div>;
+};
 
 export default Celebirity;

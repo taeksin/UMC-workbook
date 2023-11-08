@@ -4,6 +4,7 @@ import AdPage from '../components/AdPage';
 const Home = () => {
   return (
     <div>
+      Home
       <AdPage />
     </div>
   );

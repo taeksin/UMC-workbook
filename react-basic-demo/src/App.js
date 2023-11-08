@@ -5,7 +5,7 @@ import Movies from "./pages/Movies";
 import NotFound from "./pages/NotFound";
 import TV from "./pages/TV";
 import Header from "./components/Header";
-
+import MovieDetail from "./pages/MovieDetail";
 function App() {
   return (
     <>
@@ -16,7 +16,8 @@ function App() {
             <Route path="/Celebirity" element={<Celebirity />} />
             <Route path="/movie" element={<Movies />} />
             <Route path="/tv" element={<TV />} />
-            <Route path="/notFound" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
+            <Route path="/movie/:title" element={<MovieDetail />} />
           </Routes>
         </Router>
     </>
