@@ -1,9 +1,8 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
 import Ad from '../components/Ad';
 
-
 function AdPage() {
-  const [showAd, setShowAd] = Component(true);
+  const [showAd, setShowAd] = useState(true); // useState를 이용하여 초기 상태 설정
 
   const handleToggleClick = () => {
     setShowAd((prevShowAd) => !prevShowAd);
@@ -11,14 +10,12 @@ function AdPage() {
 
   return (
     <div>
-      AdPage       입니다
-      {showAd && <Ad showAd={showAd} />}
+      {showAd && <Ad showAd={showAd} />} {/* showAd prop을 전달 */}
       <button onClick={handleToggleClick} style={{ cursor: "pointer" }}>
         {showAd ? '광고 숨기기' : '광고 보이기'}
       </button>
     </div>
   );
 }
-
 
 export default AdPage;
