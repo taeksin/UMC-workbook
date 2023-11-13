@@ -8,35 +8,12 @@ export const AppContainer = styled.div`
   gap: 16px;
 `;
 
-export const MovieContainer = styled.div`
-  margin-top: 10px;
-  flex: 0 0 12.5%;
-  box-sizing: border-box;
-  position: relative;
-  background-color: #4b4975;
-  border-radius: 3px;
 
-  &:hover {
-    .MovieDetail {
-      display: block;
-    }
-  }
-
-  img {
-    width: 100%;
-    height: auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-`;
-
-export const MovieInfo = styled.div`
+export const Container = styled.div`
   display: flex;
-  flex-direction: row;
-  gap: 30px;
-  color: white;
-  justify-content: space-between;
-  margin-top: 1vw;
-  margin-right: 1vw;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8%;
 `;
 
 export const MovieDetail = styled.div`
@@ -50,4 +27,31 @@ export const MovieDetail = styled.div`
   color: white;
   padding: 5px;
   font-size: 15px;
+`;
+
+export const MovieContainer = styled.div`
+  position: relative;
+  width: 250px;
+  margin: 16px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+`;
+
+export const MovieImage = styled.img`
+  width: 100%;
+  min-height: 15vw;
+  margin-top: 0.5vw;
+`;
+
+export const MovieInfo = styled.div`
+  width: 100%;
+  min-height: 5%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8vw;
+  cursor: pointer;
 `;

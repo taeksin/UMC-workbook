@@ -1,4 +1,8 @@
-// TV.jsx
-export default function TV() {
-  return <h2>TV</h2>;
+// TVComponent.jsx
+import React from "react";
+
+export default function TVComponent() {
+  return (
+    <h2>TV</h2>
+  );
 }
