@@ -12,6 +12,7 @@ const LoginButtonStyle = styled.button`
   color: #484a64;
   outline: none;
   padding: 0.2vw 1vw 0.2vw 1vw;
+  
 `;
 
 export default LoginButtonStyle;
