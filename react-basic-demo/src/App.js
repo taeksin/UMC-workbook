@@ -7,6 +7,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 import MoviePage from "./pages/MoviePage";
 import TVPage from "./pages/TVPage";
 import CelebirityPage from "./pages/CelebirityPage";
+import TvDetailPage from "./pages/TvDetailPage";
 import MovieDetailPage from "./pages/MovieDetailPage";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
             <Route path="/celebirityPage" element={<CelebirityPage />} />
             <Route path="/moviePage" element={<MoviePage />} />
             <Route path="/tvPage" element={<TVPage />} />
+            <Route path="/tv/:name" element={<TvDetailPage />} />
             <Route path="/movie/:title" element={<MovieDetailPage />} />
           </Routes>
         </Router>

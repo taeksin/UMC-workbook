@@ -1,43 +1,57 @@
 import styled from 'styled-components';
 
-export const MovieContainer = styled.div`
-  position: relative;
-  width: 250px;
-  border-radius: 5px;
-  color: aliceblue;
-  margin: 10px;
-  justify-content: center;
-  background-color: rgb(79, 79, 121);
-`;
-
-export const MovieImg = styled.img`
-  max-width: 100%;
-`;
-
-export const MovieInfo = styled.div`
+export const AppContainer = styled.div`
+  background-color: #2b2a49;
   display: flex;
-  padding: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  gap: 16px;
 `;
 
-export const MovieTitle = styled.h4`
-  margin: 0;
+
+export const Container = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.8%;
 `;
 
-export const MovieRating = styled.span`
-  margin: 3px;
-`;
-
-export const MovieDescription = styled.p`
-  color: white;
-`;
-
-export const Overview = styled.div`
+export const TvDetail = styled.div`
   position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(2, 1, 0, 0.8);
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  opacity: 0.8;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+`;
+
+export const TvContainer = styled.div`
+  position: relative;
+  width: 250px;
+  margin: 16px;
+  background-color: #373b69;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+`;
+
+export const TvImage = styled.img`
+  width: 100%;
+  min-height: 15vw;
+  margin-top: 0.5vw;
+`;
+
+export const TvInfo = styled.div`
+  width: 100%;
+  min-height: 5%;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8vw;
+  cursor: pointer;
 `;
